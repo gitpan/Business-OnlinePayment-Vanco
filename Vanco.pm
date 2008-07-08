@@ -14,8 +14,8 @@ use Business::OnlinePayment;
 use vars qw($VERSION $DEBUG @ISA $me);
 
 @ISA = qw(Business::OnlinePayment);  # Business::OnlinePayment::HTTPS 
-$VERSION = '0.01';
-$DEBUG = 1;
+$VERSION = '0.02';
+$DEBUG = 0;
 $me = 'Business::OnlinePayment::Vanco';
 
 sub set_defaults {
